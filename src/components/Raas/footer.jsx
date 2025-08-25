@@ -19,8 +19,7 @@ import {
 const Footer = () => {
   const services = [
     "Recruitment as a Service (RAAS)",
-    "Pay Per Hire",
-    "Fractional Hiring"
+   
 
   
   ];
