@@ -360,8 +360,8 @@ const Navbar = () => {
     { name: "Fraction Hiring", path: "/FractionHiring" },
     { name: "Pay Per Hire", path: "/Payperhire" },
     { name: "Resources", path: "#" },
-    { name: "Contact Us", path: "/ContactUs" },
-    { name: "Hire Now", path: "#" },
+    { name: "Hire Now", path: "/ContactUs" },
+    { name: "Raas", path: "#" },
   ];
 
   return (
@@ -491,18 +491,18 @@ const Navbar = () => {
                   backgroundImage: "url('/images/navrec4.png')",
                 }}
               >
-                Contact Us
+                Hire Now
               </a>
               <div className="absolute right-0 top-1/2 w-6 h-[5px] bg-white transform translate-x-full -translate-y-1/2"></div>
             </div>
             <div className="bg-white p-2 rounded-full">
               <a
-                href="https://www.jobsterritory.com/HireNow"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="whitespace-nowrap bg-gradient-to-r from-[#2D274B] to-[#5500FE] hover:bg-purple-700 text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-200 shadow-sm hover:shadow-md"
               >
-                Hire Now
+                Raas
               </a>
             </div>
           </div>
