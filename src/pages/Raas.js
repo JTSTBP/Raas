@@ -180,23 +180,23 @@ const blogs = [
   {
     id: 3,
     title: "post/how-raas-transforms-your-hiring-process",
-    image: "/images/blogsimg1.png",
+    image: "/images/blogimg1.png",
   },
   {
     id: 4,
     title: "why-raas-is-the-secret-weapon-for-startup",
-    image: "/images/blogsimg.png",
+    image: "/images/blogsimgsh1.png",
     bg: "#1B084C",
   },
   {
     id: 3,
     title: "how-raas-helps-startup-build-dream-teams-fast",
-    image: "/images/blogsimg1.png",
+    image: "/images/blogimg2.png",
   },
   {
     id: 4,
     title: "5-signs-your-company-needs-raas-now",
-    image: "/images/blogsimg.png",
+    image: "/images/blogsimgsh2.png",
     bg: "#1B084C",
   },
 ];
