@@ -17,97 +17,97 @@ import IndustriesGrid from "../components/Raas/industries";
 
 const industries = [
   {
-    title: "Pristine",
+    title: "Practo",
     description:
-      "How Jobs Territory Helped Pristine Hire 4+ Professionals in Healthcare and Logistics",
+      "How Jobs Territory Helped Practo Hire 42 Healthcare Professionals in Just 2 Months (2021)",
     placements: "2000+",
     bg: "images/bg1.png",
     text: "text-[#FFFFFF]",
-    img: "/images/casimg1.png",
-    slug: "pristine",
+    img: "/images/casimg1.jpg",
+    slug: "practo",
   },
   {
-    title: "Nobroker",
+    title: "Vogo",
     description:
-      "How Jobs Territory Helped NoBroker Hire 200+ Professionals Across Multiple Roles in One Year (November 2021 to November 2022)",
+      "How Jobs Territory Helped Vogo Hire 50+ Customer Support Team Members in 2 Months",
     placements: "800+",
     bg: "images/bg4.png",
     text: "text-[#1B084C]",
-    img: "/images/ind1.png",
-    slug: "nobroker",
+    img: "/images/casimg4.jpg",
+    slug: "vogo",
   },
   {
-    title: "Pentacle",
+    title: "Unacademy",
     description:
-      "How Jobs Territory Helped Pentacle Hire 4+ Professionals to Strengthen Operations",
+      "How Jobs Territory Helped Unacademy Close 84 Business Development Positions in February 2022",
+    placements: "700+",
     placements: "1500+",
     bg: "images/bg2.png",
     text: "text-[#FFFFFF]",
-    img: "/images/ind2.png",
-    slug: "pentacle",
+    slug: "unacademy",
+    img: "/images/casimg7.png",
+  },
+  {
+    title: "Medvarsity",
+    description:
+      "How Jobs Territory Helped Medvarsity Hire 60+ Academic Counselors in Just 3 Months (2021)",
+    placements: "1000+",
+    bg: "images/bg4.png",
+    text: "text-[#1B084C]",
+    img: "/images/casimg2.png",
+    slug: "medvarsity",
+  },
+  {
+    title: "PagarBook",
+    description:
+      "How Jobs Territory Helped PagarBook Hire 81+ Professionals to Power Rapid Expansion",
+    placements: "1200+",
+    bg: "images/bg1.png",
+    text: "text-[#FFFFFF]",
+    img: "/images/casimg5.jpg",
+    slug: "pagarbook",
+  },
+
+  {
+    title: "Brandstudio",
+    description:
+      "How Jobs Territory Helped Brandstudio Hire 28+ Professionals to Power Creative Growth",
+    placements: "1500+",
+    bg: "images/bg4.png",
+    text: "text-[#1B084C]",
+    img: "/images/casimg8.jpg",
+    slug: "brandstudio",
+  },
+  {
+    title: "Urban Ladder",
+    description:
+      "How Jobs Territory Helped Urban Ladder Hire 25+ Retail and Customer Support Professionals",
+    bg: "images/bg1.png",
+    text: "text-[#FFFFFF]",
+    large: true,
+    img: "/images/casimg3.jpg",
+    slug: "urban-ladder",
+  },
+  {
+    title: "FloBiz",
+    description:
+      "How Jobs Territory Helped FloBiz Hire 150+ Business Development Executives in FY 2021-2022",
+    placements: "500+",
+    bg: "images/bg4.png",
+    text: "text-[#1B084C]",
+    img: "/images/casimg6.png",
+    slug: "flobiz",
   },
   {
     title: "Zepto",
     description:
       "How Jobs Territory Helped Zepto Close 25 Super Store Manager Positions in Less Than 20 Days",
-    placements: "1000+",
-    bg: "images/casbg2.png",
-    text: "text-[#1B084C]",
-    img: "/images/casimg2.png",
+    placements: "500+",
+
+    bg: "images/bg1.png",
+    text: "text-[#FFFFFF]",
+    img: "/images/casimg9.png",
     slug: "zepto",
-  },
-  {
-    title: "MyGate",
-    description:
-      "How Jobs Territory Helped MyGate Hire 7+ Professionals to Support Growth",
-    placements: "1200+",
-    bg: "images/bg1.png",
-    text: "text-[#FFFFFF]",
-    img: "/images/ind4.png",
-    slug: "mygate",
-  },
-
-  {
-    title: "Heritage",
-    description:
-      "How Jobs Territory Helped Heritage Hire 7+ Professionals to Enhance Operations and Customer Service",
-    placements: "1500+",
-    bg: "images/bg4.png",
-    text: "text-[#1B084C]",
-    img: "/images/casimg3.png",
-    slug: "heritage",
-  },
-  {
-    title: "Neuron Energy",
-    description:
-      "How Jobs Territory Helped Neuron Energy Hire 5+ Professionals to Drive Growth and Innovation",
-    placements: "700+",
-    bg: "images/casbg3.png",
-    text: "text-[#FFFFFF]",
-    large: true,
-    slug: "neuron-energy",
-    img: "/images/casimg4.png",
-  },
-  {
-    title: "Teachmint",
-    description:
-      "How Jobs Territory Helped Teachmint Hire 20+ Professionals to Support Growth",
-    placements: "500+",
-    bg: "images/bg4.png",
-    text: "text-[#1B084C]",
-    img: "/images/ind7.png",
-    slug: "teachmint",
-  },
-  {
-    title: "Torishima",
-    description:
-      "How Jobs Territory Helped Torishima Hire 1+ Professional to Enhance Operational Efficiency",
-    placements: "500+",
-
-    bg: "images/bg1.png",
-    text: "text-[#FFFFFF]",
-    img: "/images/ind6.png",
-    slug: "torishima",
   },
 ];
 
