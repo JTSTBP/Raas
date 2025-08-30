@@ -62,14 +62,14 @@ export default function HowItWorks() {
       </section>
 
       {/* --- Pricing Section --- */}
-      <section className="py-16 bg-gray-50 text-[#1B084C]" id="pricing">
+      {/* <section className="py-16 bg-gray-50 text-[#1B084C]" id="pricing">
         <div className="max-w-6xl mx-auto text-center px-6">
           <h2 className="text-3xl font-bold mb-10 font-montserrat">
             Simple, Transparent Pricing
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Plan 1 */}
+          
             <div className="bg-white rounded-2xl shadow p-8 ">
               <h3 className="text-xl font-semibold mb-4 ">RAAS Unlimited</h3>
               <p className="text-2xl font-bold mb-4 text-[#6A1FFF]">
@@ -97,7 +97,7 @@ export default function HowItWorks() {
               </button>
             </div>
 
-            {/* Plan 2 */}
+          
             <div className="bg-white rounded-2xl shadow p-8">
               <h3 className="text-xl font-semibold mb-4 ">
                 Custom RAAS Enterprise
@@ -126,7 +126,7 @@ export default function HowItWorks() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
