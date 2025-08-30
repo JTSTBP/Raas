@@ -69,6 +69,12 @@ const IndustriesGrid = ({ industries, separate }) => {
 
                 {separate === "true" ? (
                   <button
+                    onClick={() =>
+                      window.open(
+                        `https://www.jobsterritory.com/casestudy/${item.slug}`,
+                        "_blank"
+                      )
+                    }
                     className={`py-2 px-4 border rounded-full ${
                       item.text.includes("#FFFFFF")
                         ? "bg-[#FFFFFF] text-[#1B084C]"

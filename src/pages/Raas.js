@@ -17,13 +17,14 @@ import IndustriesGrid from "../components/Raas/industries";
 
 const industries = [
   {
-    title: "Portia Heal at home",
+    title: "Pristine",
     description:
-      "How Jobs Territory Helped Portea Hire 9+ Healthcare Professionals",
+      "How Jobs Territory Helped Pristine Hire 4+ Professionals in Healthcare and Logistics",
     placements: "2000+",
     bg: "images/bg1.png",
     text: "text-[#FFFFFF]",
-    img: "/images/portea.png",
+    img: "/images/casimg1.png",
+    slug: "pristine",
   },
   {
     title: "Nobroker",
@@ -33,6 +34,7 @@ const industries = [
     bg: "images/bg4.png",
     text: "text-[#1B084C]",
     img: "/images/ind1.png",
+    slug: "nobroker",
   },
   {
     title: "Pentacle",
@@ -42,15 +44,17 @@ const industries = [
     bg: "images/bg2.png",
     text: "text-[#FFFFFF]",
     img: "/images/ind2.png",
+    slug: "pentacle",
   },
   {
-    title: "Svamitva",
+    title: "Zepto",
     description:
-      "How Jobs Territory Helped Svamita Hire 3+ Professionals to Strengthen Operations in Real Estate and Infrastructure",
+      "How Jobs Territory Helped Zepto Close 25 Super Store Manager Positions in Less Than 20 Days",
     placements: "1000+",
     bg: "images/casbg2.png",
     text: "text-[#1B084C]",
-    img: "/images/ind3.png",
+    img: "/images/casimg2.png",
+    slug: "zepto",
   },
   {
     title: "MyGate",
@@ -60,27 +64,29 @@ const industries = [
     bg: "images/bg1.png",
     text: "text-[#FFFFFF]",
     img: "/images/ind4.png",
+    slug: "mygate",
   },
 
   {
-    title: "Nephroplus",
+    title: "Heritage",
     description:
-      "How Jobs Territory Helped NephroPlus Hire 10+ Professionals to Enhance Patient Care and Healthcare Operations",
+      "How Jobs Territory Helped Heritage Hire 7+ Professionals to Enhance Operations and Customer Service",
     placements: "1500+",
     bg: "images/bg4.png",
     text: "text-[#1B084C]",
-    img: "/images/ind5.png",
+    img: "/images/casimg3.png",
+    slug: "heritage",
   },
   {
-    title: "The Sleep Company",
+    title: "Neuron Energy",
     description:
-      "How Jobs Territory Helped Torishima Hire 1+ Professional to Enhance Operational Efficiency",
+      "How Jobs Territory Helped Neuron Energy Hire 5+ Professionals to Drive Growth and Innovation",
     placements: "700+",
     bg: "images/casbg3.png",
     text: "text-[#FFFFFF]",
     large: true,
-
-    img: "/images/ind6.png",
+    slug: "neuron-energy",
+    img: "/images/casimg4.png",
   },
   {
     title: "Teachmint",
@@ -90,16 +96,18 @@ const industries = [
     bg: "images/bg4.png",
     text: "text-[#1B084C]",
     img: "/images/ind7.png",
+    slug: "teachmint",
   },
   {
-    title: "Franklinn",
+    title: "Torishima",
     description:
-      "How Jobs Territory Helped Frankfinn Hire 4+ Professionals to Strengthen Their Training Programs",
+      "How Jobs Territory Helped Torishima Hire 1+ Professional to Enhance Operational Efficiency",
     placements: "500+",
 
     bg: "images/bg1.png",
     text: "text-[#FFFFFF]",
-    img: "/images/ind8.png",
+    img: "/images/ind6.png",
+    slug: "torishima",
   },
 ];
 
@@ -206,7 +214,7 @@ const RaasPage = () => {
     <div className="font-poppins">
       <Navbar />
       <Bannersection
-        backgroundImage="/images/heroraas.png"
+        backgroundImage="/images/exbg1.png"
         heading="Unlimited Hiring. "
         heading1="One Flat Monthly Fee."
         paragraph="2 recruiters + 1 account manager dedicated to you. Pre-screened candidates in 72 hrs. Unlimited roles. Unlimited closures."
