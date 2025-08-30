@@ -29,7 +29,7 @@ const FAQSection = ({ faqData }) => {
               className="h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"
             />
           </div>
-          <h2 className="text-3xl font-bold mb-2 font-museo">
+          <h2 className="text-3xl font-bold mb-2 font-montserrat">
             Frequently Asked Questions
           </h2>
           <p className="mb-8">
@@ -91,7 +91,7 @@ const FAQSection = ({ faqData }) => {
                           initial={{ y: -10, opacity: 0 }}
                           animate={{ y: 0, opacity: 1 }}
                           transition={{ delay: 0.1 }}
-                          className="text-[#6A1FFF] font-museo leading-relaxed mt-2"
+                          className="text-[#6A1FFF] font-montserrat leading-relaxed mt-2"
                         >
                           {faq.answer}
                         </motion.p>
@@ -104,6 +104,52 @@ const FAQSection = ({ faqData }) => {
           </div>
         </motion.div>
       </section>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        viewport={{ once: true }}
+        className="text-center"
+      >
+        <div
+          className="  text-white relative overflow-hidden py-16"
+          style={{
+            backgroundImage: `url('/images/trasfrom.png')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+            className="absolute top-4 right-4 w-16 h-16 border-2 border-white/20 rounded-full"
+          />
+          <motion.div
+            animate={{ scale: [1, 1.2, 1] }}
+            transition={{ duration: 3, repeat: Infinity }}
+            className="absolute bottom-4 left-4 w-8 h-8 bg-white/20 rounded-full"
+          />
+
+          <h3 className="text-3xl sm:text-4xl  mb-4 font-montserrat font-bold">
+            Ready to Scale Hiring
+            <span className="font-normal"> on a Flat Fee?</span>
+          </h3>
+          <p className="text-white/90 mb-6 max-w-2xl mx-auto font-poppins">
+            Start with a 20-minute discovery call. We’ll map roles, timelines,
+            and team structure.
+          </p>
+          <motion.button
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0 20px 40px rgba(0,0,0,0.2)",
+            }}
+            whileTap={{ scale: 0.95 }}
+            className="text-[#1B084C] bg-white text-primary-600 px-8 py-4 rounded-2xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 inline-flex items-center space-x-2"
+          >
+            <span>Book a Discovery Call</span>
+          </motion.button>
+        </div>
+      </motion.div>
     </div>
   );
 };

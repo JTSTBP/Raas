@@ -1,12 +1,7 @@
-
-
-
 import { useState, useEffect, useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 
 export default function BlogsSection({ blogs }) {
-
-
   // Group blogs into sets of 2
   const groupedBlogs = [];
   for (let i = 0; i < blogs.length; i += 2) {
@@ -61,7 +56,7 @@ export default function BlogsSection({ blogs }) {
             <div className="flex md:flex-row flex-col gap-3 md:justify-between items-start mb-8">
               <div>
                 <h2
-                  className="text-3xl md:text-4xl font-semibold mb-2 font-museo"
+                  className="text-3xl md:text-4xl font-semibold mb-2 font-montserrat"
                   style={{ color: "#1B084C" }}
                 >
                   Blogs

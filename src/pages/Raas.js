@@ -48,8 +48,8 @@ const industries = [
     description:
       "How Jobs Territory Helped Svamita Hire 3+ Professionals to Strengthen Operations in Real Estate and Infrastructure",
     placements: "1000+",
-    bg: "images/bg2.png",
-    text: "text-[#FFFFFF]",
+    bg: "images/casbg2.png",
+    text: "text-[#1B084C]",
     img: "/images/ind3.png",
   },
   {
@@ -57,8 +57,8 @@ const industries = [
     description:
       "How Jobs Territory Helped MyGate Hire 7+ Professionals to Support Growth",
     placements: "1200+",
-    bg: "images/bg3.png",
-    text: "text-[#1B084C]",
+    bg: "images/bg1.png",
+    text: "text-[#FFFFFF]",
     img: "/images/ind4.png",
   },
 
@@ -67,8 +67,8 @@ const industries = [
     description:
       "How Jobs Territory Helped NephroPlus Hire 10+ Professionals to Enhance Patient Care and Healthcare Operations",
     placements: "1500+",
-    bg: "images/bg6.png",
-    text: "text-[#FFFFFF]",
+    bg: "images/bg4.png",
+    text: "text-[#1B084C]",
     img: "/images/ind5.png",
   },
   {
@@ -76,9 +76,10 @@ const industries = [
     description:
       "How Jobs Territory Helped Torishima Hire 1+ Professional to Enhance Operational Efficiency",
     placements: "700+",
-    bg: "images/bg8.png",
+    bg: "images/casbg3.png",
+    text: "text-[#FFFFFF]",
     large: true,
-    text: "text-[#1B084C]",
+
     img: "/images/ind6.png",
   },
   {
@@ -86,9 +87,8 @@ const industries = [
     description:
       "How Jobs Territory Helped Teachmint Hire 20+ Professionals to Support Growth",
     placements: "500+",
-    bg: "images/bg7.png",
-
-    text: "text-[#FFFFFF]",
+    bg: "images/bg4.png",
+    text: "text-[#1B084C]",
     img: "/images/ind7.png",
   },
   {
@@ -96,8 +96,9 @@ const industries = [
     description:
       "How Jobs Territory Helped Frankfinn Hire 4+ Professionals to Strengthen Their Training Programs",
     placements: "500+",
-    bg: "images/bg8.png",
-    text: "text-[#1B084C]",
+
+    bg: "images/bg1.png",
+    text: "text-[#FFFFFF]",
     img: "/images/ind8.png",
   },
 ];
@@ -143,7 +144,7 @@ const faqData = [
     question: "How much does RAAS cost?",
     icon: "/images/f7.png",
     answer:
-      "RAAS works on a fixed monthly subscription fee, customized to your business size and hiring needs—no hidden charges, no per-hire costs.",
+      "RAAS Unlimited starts at ₹2,00,000/month. Custom RAAS Enterprise plans (₹3–5L/month) are available for larger teams.",
   },
   {
     question: "How fast can RAAS start delivering results?",
@@ -174,7 +175,7 @@ const blogs = [
   {
     id: 2,
     title: "post/scale-without-overloading-hr-raas-explained",
-    image: "/images/blogsimg.png",
+    image: "/images/blogsh3.png",
     bg: "#1B084C",
   },
   {
@@ -185,7 +186,7 @@ const blogs = [
   {
     id: 4,
     title: "why-raas-is-the-secret-weapon-for-startup",
-    image: "/images/blogsimgsh1.png",
+    image: "/images/blogsh1.png",
     bg: "#1B084C",
   },
   {
@@ -196,27 +197,27 @@ const blogs = [
   {
     id: 4,
     title: "5-signs-your-company-needs-raas-now",
-    image: "/images/blogsimgsh2.png",
+    image: "/images/blogsh2.png",
     bg: "#1B084C",
   },
 ];
 const RaasPage = () => {
   return (
-    <div>
+    <div className="font-poppins">
       <Navbar />
       <Bannersection
         backgroundImage="/images/heroraas.png"
-        heading="Hire Without Limits"
-        heading1="Grow Without Delays"
-        paragraph="Your growth engine for Unlimited Hiring, a Fixed Monthly Fee, and Industry Experts delivering Faster, Guaranteed Results."
+        heading="Unlimited Hiring. "
+        heading1="One Flat Monthly Fee."
+        paragraph="2 recruiters + 1 account manager dedicated to you. Pre-screened candidates in 72 hrs. Unlimited roles. Unlimited closures."
         features={[
           { icon: <Users size={18} />, text: "Expert Recruiters" },
           { icon: <TrendingUp size={18} />, text: "Fast Turnaround" },
           { icon: <Target size={18} />, text: "Perfect match" },
           { icon: <Award size={18} />, text: "Quality Assured" },
         ]}
-        primaryButtonText="Book a Demo"
-        secondrybuttontext="Submit Role Brief"
+        primaryButtonText="Book a Discovery Call"
+        secondrybuttontext="Get Sample Profiles"
         onPrimaryButtonClick={() => console.log("Demo clicked")}
         showBottomButton={true}
       />

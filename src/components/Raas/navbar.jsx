@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -13,13 +11,13 @@ const Navbar = () => {
 
   const miditems = [
     { name: "Home", path: "/" },
-  
+
     // { name: "Hire Now", path: "/ContactUs" },
     // { name: "Raas", path: "#" },
   ];
 
   return (
-    <nav className="bg-[#EFEFEF] border-b border-gray-200 font-inter">
+    <nav className="bg-[#EFEFEF] border-b border-gray-200 font-poppins">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex justify-between items-center h-16 whitespace-nowrap">
           {/* logo */}

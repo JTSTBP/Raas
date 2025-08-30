@@ -31,12 +31,12 @@ const IndustriesGrid = ({ industries, separate }) => {
             className="h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"
           />
         </div>
-        <h2 className="text-3xl md:text-4xl font-bold font-museo inline-block pb-2">
-          Your Industry, Our Expertise
+        <h2 className="text-3xl md:text-4xl font-bold font-montserrat inline-block pb-2">
+          Case Studies
         </h2>
         <p className="mt-2">
-          From emerging brands to industry giants, we deliver hiring solutions
-          tailored to your sector’s challenges and ambitions.
+          Explore how Job Territory has helped businesses find exceptional
+          talent and transform their teams.
         </p>
       </motion.div>
 
@@ -57,14 +57,15 @@ const IndustriesGrid = ({ industries, separate }) => {
                 }}
                 style={{
                   backgroundImage: `url(${item.bg})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
                 }}
-                className={`rounded-xl p-6 shadow-md break-inside-avoid ${item.text}`}
+                className={`rounded-xl p-6 shadow-md break-inside-avoid 
+              bg-cover bg-center h-[266px] flex flex-col justify-between items-center ${item.text}`}
               >
-                <img src={item.img} className="w-36 mx-auto my-2" />
-                <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                <p className="text-sm mb-4">{item.description}</p>
+                <div className="flex flex-col items-center text-center">
+                  <img src={item.img} className="w-32 mx-auto my-2" />
+                  <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                  <p className="text-sm mb-4">{item.description}</p>
+                </div>
 
                 {separate === "true" ? (
                   <button

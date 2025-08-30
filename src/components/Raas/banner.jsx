@@ -1,9 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  ArrowUpRight,
- 
-} from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 const Bannersection = ({
   backgroundImage,
@@ -17,7 +14,7 @@ const Bannersection = ({
   showBottomButton = true,
 }) => {
   return (
-    <div className="bg-[#EFEFEF] py-4 font-museo">
+    <div className="bg-[#EFEFEF] py-4 font-montserrat">
       <motion.div
         initial={{ scale: 1.1, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -43,8 +40,6 @@ const Bannersection = ({
             {heading1}
           </h1>
         </motion.div>
-
-      
 
         {/* Features */}
         <motion.div

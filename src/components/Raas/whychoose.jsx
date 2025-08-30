@@ -8,11 +8,11 @@ export default function WhychooseRaas() {
         <div className="">
           {/* Heading */}
           <div className="mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary-900 mb-4 font-museo">
-              What Is JT RaaS?
+            <h2 className="text-3xl md:text-4xl font-bold text-primary-900 mb-4 font-montserrat">
+              What Is RaaS?
             </h2>
             <p className="text-base md:text-lg text-gray-700 max-w-3xl">
-              JT RaaS — Recruitment as a Service, Reinvented for Startups & SMEs
+              RaaS — Recruitment as a Service, Reinvented for Startups & SMEs
               Get 2 dedicated recruiters + 1 account manager embedded in your
               team. We source, screen, and coordinate so you can focus on
               scaling — with precision hiring handled end-to-end
@@ -24,12 +24,12 @@ export default function WhychooseRaas() {
             <div className="flex items-start gap-4 p-6 ">
               {/* <FaUsers className="text-2xl text-primary-600 mt-1" /> */}
               <img
-                alt="JT RaaS Illustration"
+                alt=" RaaS Illustration"
                 className="w-[3rem]  h-auto"
                 src={"/images/raasic1.png"}
               />
               <div>
-                <h3 className="text-lg font-semibold mb-1 font-museo">
+                <h3 className="text-lg font-semibold mb-1 font-montserrat">
                   Unlimited Hiring
                 </h3>
                 <p className="text-gray-600">Fill as many roles as you need.</p>
@@ -37,7 +37,7 @@ export default function WhychooseRaas() {
             </div>
             <div className="flex items-start gap-4 p-6 ">
               <img
-                alt="JT RaaS Illustration"
+                alt=" RaaS Illustration"
                 className="w-[3rem]  h-auto"
                 src={"/images/raasic3.png"}
               />
@@ -52,7 +52,7 @@ export default function WhychooseRaas() {
             </div>
             <div className="flex items-start gap-4 p-6 ">
               <img
-                alt="JT RaaS Illustration"
+                alt=" RaaS Illustration"
                 className="w-[3rem]  h-auto"
                 src={"/images/raasic2.png"}
               />
@@ -67,14 +67,15 @@ export default function WhychooseRaas() {
             </div>
             <div className="flex items-start gap-4 p-6">
               <img
-                alt="JT RaaS Illustration"
+                alt=" RaaS Illustration"
                 className="w-[3rem]  h-auto"
                 src={"/images/raasic4.png"}
               />
               <div>
                 <h3 className="text-lg font-semibold mb-1">Faster Closures</h3>
                 <p className="text-gray-600">
-                  First vetted profiles in 72 hours, with results guaranteed.
+                  First vetted profiles in 72 hours. Unlimited roles, unlimited
+                  closures.
                 </p>
               </div>
             </div>
@@ -88,7 +89,7 @@ export default function WhychooseRaas() {
         <div className="flex justify-center">
           <img
             src="/images/wtraas.jpg"
-            alt="JT RaaS Illustration"
+            alt=" RaaS Illustration"
             className="rounded-lg  w-full md:w-1/2 lg:w-full h-auto object-cover"
           />
         </div>
