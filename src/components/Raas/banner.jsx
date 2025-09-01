@@ -46,10 +46,10 @@ const Bannersection = ({
             transition={{ duration: 0.6 }}
             className="text-left mb-10"
           >
-            <h1 className="text-3xl md:text-4xl font-bold text-[#FFFFFF]">
+            <h1 className="text-3xl md:text-5xl font-bold text-[#FFFFFF]">
               {heading}
             </h1>
-            <h1 className="text-3xl md:text-4xl font-bold text-[#5500FF]">
+            <h1 className="text-3xl md:text-5xl font-bold text-[#5500FF]">
               {heading1}
             </h1>
           </motion.div>
