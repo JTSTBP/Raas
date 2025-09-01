@@ -233,9 +233,11 @@ const RaasPage = () => {
       <HowItWorks />
       <RaaSCarousel />
       <AboutJobsTerritory />
-      <BlogsSection blogs={blogs} />
+
       <IndustriesGrid industries={industries} separate="true" />
+      <BlogsSection blogs={blogs} />
       <FAQSection faqData={faqData} />
+
       <Footer />
     </div>
   );
