@@ -15,6 +15,7 @@ import {
   Award,
   Users,
 } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const services = [
@@ -48,7 +49,7 @@ const Footer = () => {
     { icon: Facebook, href: "#", color: "hover:text-blue-700" },
     { icon: Instagram, href: "#", color: "hover:text-pink-600" },
   ];
-
+ const navigate = useNavigate();
   return (
     <footer className="bg-[#1B084C] text-white relative overflow-hidden">
       {/* Background Pattern */}
@@ -329,14 +330,14 @@ const Footer = () => {
               </div>
               <div className="flex space-x-6">
                 <a
-                  href="#"
-                  className="hover:text-primary-400 transition-colors"
+                  onClick={() => navigate("/PrivacyPolicy")}
+                  className="hover:text-primary-400 transition-colors cursor-pointer"
                 >
                   Privacy Policy
                 </a>
                 <a
-                  href="#"
-                  className="hover:text-primary-400 transition-colors"
+                  onClick={() => navigate("/TermsAndConditions")}
+                  className="hover:text-primary-400 transition-colors cursor-pointer"
                 >
                   Terms of Service
                 </a>
