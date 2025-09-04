@@ -118,12 +118,12 @@ const faqData = [
     answer:
       "RAAS is a flexible recruitment subscription where Jobs Territory becomes your extended hiring team. You pay a fixed monthly cost and get unlimited hiring support without extra fees per candidate.",
   },
-  {
-    question: "How does RAAS differ from Pay Per Hire?",
-    icon: "/images/f2.png",
-    answer:
-      "In Pay Per Hire, you pay per successful placement. In RAAS, you pay a flat monthly fee for unlimited roles, making it cost-effective for fast-scaling businesses.",
-  },
+  // {
+  //   question: "How does RAAS differ from Pay Per Hire?",
+  //   icon: "/images/f2.png",
+  //   answer:
+  //     "In Pay Per Hire, you pay per successful placement. In RAAS, you pay a flat monthly fee for unlimited roles, making it cost-effective for fast-scaling businesses.",
+  // },
   {
     question: "What are the main benefits of RAAS?",
     icon: "/images/f3.png",

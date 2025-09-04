@@ -59,7 +59,7 @@ export default function BlogsSection({ blogs }) {
                   className="text-3xl md:text-4xl font-semibold mb-2 font-montserrat"
                   style={{ color: "#1B084C" }}
                 >
-                  Blogs
+                  Recruitment insights
                 </h2>
                 <p className="text-gray-700 max-w-lg">
                   Explore helpful resources on recruitment, hiring trends, and
