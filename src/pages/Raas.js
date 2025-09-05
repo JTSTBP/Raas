@@ -183,7 +183,7 @@ const blogs = [
   {
     id: 2,
     title: "post/scale-without-overloading-hr-raas-explained",
-    image: "/images/blogsh3.png",
+    image: "/images/blosh1.png",
     bg: "#1B084C",
   },
   {
@@ -194,7 +194,7 @@ const blogs = [
   {
     id: 4,
     title: "why-raas-is-the-secret-weapon-for-startup",
-    image: "/images/blogsh1.png",
+    image: "/images/blogsh2.png",
     bg: "#1B084C",
   },
   {
@@ -205,7 +205,7 @@ const blogs = [
   {
     id: 4,
     title: "5-signs-your-company-needs-raas-now",
-    image: "/images/blogsh2.png",
+    image: "/images/blogsh3.png",
     bg: "#1B084C",
   },
 ];
